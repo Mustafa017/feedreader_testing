@@ -2,7 +2,7 @@
 
 This project involves a web-based application that reads RSS feeds. Testing is an important part of the development process, I have already included [Jasmine](http://jasmine.github.io/) and even written most of the test suite! 
 
-To view the app live, use this [link]()
+To view the app live, use this [link](https://mustafa017.github.io/feedreader_testing/)
 
 ## Benefits of the project?
 
