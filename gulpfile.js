@@ -51,7 +51,9 @@ gulp.task('styles-dist', () => {
     gulp.src('css/*.css')
         .pipe(sourcemaps.init())
         .pipe(csso())
-        .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9'))
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions']
+        }))
         .pipe(concat('style.min.css'))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('dist/css'));
