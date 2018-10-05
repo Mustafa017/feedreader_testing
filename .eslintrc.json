@@ -11,6 +11,7 @@
     "rules": {
         //Severity should be one of the following: 0 = off, 1 = warn, 2 = error
         "indent": 2,
+        "no-console": "off",
         "linebreak-style": [
             "error",
             "unix"
